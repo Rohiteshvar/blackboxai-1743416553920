@@ -1,0 +1,52 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Expense Manager</string>
+
+    <!-- Navigation Labels -->
+    <string name="add_expense">Add Expense</string>
+    <string name="expense_list">Expenses</string>
+    <string name="dashboard">Dashboard</string>
+
+    <!-- Add Expense Fragment -->
+    <string name="amount">Amount</string>
+    <string name="category">Category</string>
+    <string name="date">Date</string>
+    <string name="description">Description</string>
+    <string name="save">Save Expense</string>
+
+    <!-- Categories -->
+    <string-array name="expense_categories">
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Bills</item>
+        <item>Shopping</item>
+        <item>Entertainment</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- Validation Messages -->
+    <string name="error_amount_required">Please enter amount</string>
+    <string name="error_amount_invalid">Please enter valid amount</string>
+    <string name="error_category_required">Please select category</string>
+    <string name="error_date_required">Please select date</string>
+
+    <!-- Success Messages -->
+    <string name="success_expense_saved">Expense saved successfully</string>
+
+    <!-- Expense List Strings -->
+    <string name="no_expenses">No expenses yet</string>
+    <string name="add_first_expense">Add your first expense to get started</string>
+    <string name="expense_deleted">Expense deleted</string>
+    <string name="undo">Undo</string>
+    <string name="category_icon">Category icon</string>
+
+    <!-- FAB Content Description -->
+    <string name="add_expense_fab">Add new expense</string>
+
+    <!-- Dashboard Strings -->
+    <string name="expense_summary">Expense Summary</string>
+    <string name="total_expenses">Total Expenses</string>
+    <string name="average_expense">Average Expense</string>
+    <string name="expense_count">Number of Expenses</string>
+    <string name="pie_chart_description">Expense distribution by category</string>
+</resources>
